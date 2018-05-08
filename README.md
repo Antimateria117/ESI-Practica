@@ -3,8 +3,9 @@ Prácticas de ESI - UVa
 
 ## Práctica 1
 - [x] Informe casi acabado, faltan las conclusiones y comentar un poco el análisis exploratorio de los datos.
-- [ ] Decidir si vamos a meter el SAR y la monitorización.
+- [x] Decidir si vamos a meter el SAR y la monitorización. Al final no lo usamos, de momento no añadimos la parte de monitorización. Si vamos bien de tiempo pues si. 
 - [ ] Acabar alguna prueba más de PHP, a ver si funcionan.
+- [x] Práctica Acabada.
 
 ## Práctica 2
 - [x] Configuración de Jmeter terminada.
