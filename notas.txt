@@ -1,8 +1,0 @@
-Prueba:
-- hola.php1         |       jair       |     error en el ic8, ic9, ic11
-- webPequena.html4  |       jair       |
-- webPequena.html5  |       jair       |
-- webGrande.html5   |       jair       |
-- webGrande.html5   |       jair       |
-
-No lanzar las pruebas desde jair.
