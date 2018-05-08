@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="3.2" jmeter="3.3 r1808647">
   <hashTree>
-    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Pruebas" enabled="true">
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Pruebas ESI Consulta de Apunte" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
       <boolProp name="TestPlan.functional_mode">false</boolProp>
       <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
@@ -15,14 +15,14 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Controlador Bucle" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">1</stringProp>
+          <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
-        <longProp name="ThreadGroup.start_time">1520867442000</longProp>
-        <longProp name="ThreadGroup.end_time">1520867442000</longProp>
-        <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.num_threads">150</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">5</stringProp>
+        <longProp name="ThreadGroup.start_time">1528489740000</longProp>
+        <longProp name="ThreadGroup.end_time">1528489785000</longProp>
+        <boolProp name="ThreadGroup.scheduler">true</boolProp>
+        <stringProp name="ThreadGroup.duration">45</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
@@ -73,10 +73,12 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">../../lab1/Práctica2/resultadosEscenario1/prueba4/resultadosArbol</stringProp>
         </ResultCollector>
         <hashTree/>
-        <Summariser guiclass="SummariserGui" testclass="Summariser" testname="Generar Resumen de Resultados" enabled="true"/>
+        <Summariser guiclass="SummariserGui" testclass="Summariser" testname="Generar Resumen de Resultados" enabled="true">
+          <stringProp name="TestPlan.comments">resumenResultados</stringProp>
+        </Summariser>
         <hashTree/>
         <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Gráfico de Resultados" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
@@ -111,7 +113,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">../../lab1/Práctica2/resultadosEscenario1/prueba4/graficoResultados</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="RespTimeGraphVisualizer" testclass="ResultCollector" testname="Response Time Graph" enabled="true">
@@ -147,7 +149,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">../../lab1/Práctica2/resultadosEscenario1/prueba4/responseTimeGraph</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Informe Agregado" enabled="true">
@@ -183,7 +185,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">../../lab1/Práctica2/resultadosEscenario1/prueba4/informeAgregado</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Reporte resumen" enabled="true">
@@ -219,7 +221,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">../../lab1/Práctica2/resultadosEscenario1/prueba4/reporteResumen</stringProp>
         </ResultCollector>
         <hashTree/>
         <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.SynthesisReportGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Synthesis Report (filtered)" enabled="true">
@@ -255,7 +257,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">../../lab1/Práctica2/resultadosEscenario1/prueba4/syntesis</stringProp>
           <longProp name="interval_grouping">500</longProp>
           <boolProp name="graph_aggregated">false</boolProp>
           <stringProp name="include_sample_labels"></stringProp>
@@ -299,7 +301,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">../../lab1/Práctica2/resultadosEscenario1/prueba4/perfmon</stringProp>
           <longProp name="interval_grouping">1000</longProp>
           <boolProp name="graph_aggregated">false</boolProp>
           <stringProp name="include_sample_labels"></stringProp>
@@ -308,7 +310,32 @@
           <stringProp name="end_offset"></stringProp>
           <boolProp name="include_checkbox_state">false</boolProp>
           <boolProp name="exclude_checkbox_state">false</boolProp>
-          <collectionProp name="metricConnections"/>
+          <collectionProp name="metricConnections">
+            <collectionProp name="-2124959555">
+              <stringProp name="820435565">virtual.lab.inf.uva.es</stringProp>
+              <stringProp name="48607215">31074</stringProp>
+              <stringProp name="66952">CPU</stringProp>
+              <stringProp name="3599307">user</stringProp>
+            </collectionProp>
+            <collectionProp name="-853967442">
+              <stringProp name="820435565">virtual.lab.inf.uva.es</stringProp>
+              <stringProp name="48607215">31074</stringProp>
+              <stringProp name="-1993889503">Memory</stringProp>
+              <stringProp name="-790472744">unit=mb:free</stringProp>
+            </collectionProp>
+            <collectionProp name="-247091236">
+              <stringProp name="820435565">virtual.lab.inf.uva.es</stringProp>
+              <stringProp name="48607215">31074</stringProp>
+              <stringProp name="2112896831">Disks I/O</stringProp>
+              <stringProp name="0"></stringProp>
+            </collectionProp>
+            <collectionProp name="164613834">
+              <stringProp name="820435565">virtual.lab.inf.uva.es</stringProp>
+              <stringProp name="48607215">31074</stringProp>
+              <stringProp name="66952">CPU</stringProp>
+              <stringProp name="0"></stringProp>
+            </collectionProp>
+          </collectionProp>
         </kg.apc.jmeter.perfmon.PerfMonCollector>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="1 /wcal/" enabled="true">
@@ -411,6 +438,7 @@
                 <stringProp name="Argument.name">inc</stringProp>
                 <stringProp name="Argument.value">js/visible.php</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
             </collectionProp>
           </elementProp>
@@ -512,12 +540,14 @@
                 <stringProp name="Argument.name">id</stringProp>
                 <stringProp name="Argument.value">2479</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
               <elementProp name="date" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.name">date</stringProp>
                 <stringProp name="Argument.value">20180314</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
             </collectionProp>
           </elementProp>
@@ -574,6 +604,7 @@
                 <stringProp name="Argument.name">keywords</stringProp>
                 <stringProp name="Argument.value">Tuthora</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
             </collectionProp>
           </elementProp>
@@ -686,7 +717,7 @@
           <stringProp name="HTTPSampler.contentEncoding">UTF-8</stringProp>
           <stringProp name="HTTPSampler.path">/wcal/month.php</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.follow_redirects">false</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
           <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
@@ -734,6 +765,7 @@
                 <stringProp name="Argument.name">inc</stringProp>
                 <stringProp name="Argument.value">js/visible.php</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
               </elementProp>
             </collectionProp>
           </elementProp>
