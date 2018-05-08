@@ -20,6 +20,7 @@ Prácticas de ESI - UVa
 Día de entrega de la práctica: 15 de Mayo - Martes.
 
 ## Objtivos a cumplir
+Calendario estimado de finalización de las prácticas.
 
 Práctica    | Lunes | Martes | Miércoles | Jueves | Viernes | Sábado | Domingo
 --------    | ----- | ------ | --------- | ------ | ------- | ------ | ------ 
