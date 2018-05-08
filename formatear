@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#Args:
+#$1: Filename
+
+#Lo que dura la prueba (s)
+grep "Time taken for tests" $1|cut -d " " -f7 > $1.osda
+#Requests fallidos (Fiabilidad)
+grep "Failed requests" $1|cut -d " " -f10 >> $1.osda
+#Request por segundo (Velocidad)
+grep "Requests per second" $1|cut -d " " -f7 >> $1.osda
+#Tiempo por request (ms) (Productividad)
+grep "across all concurrent" $1|cut -d " " -f10 >> $1.osda
+#grep "Complete requests" $1|cut -d " " -f8 > $1.osda
+#grep "Transfer rate" $1|cut -d " " -f12 >> $1.osda
+#grep "Total transferred" $1|cut -d " " -f8 >> $1.osda

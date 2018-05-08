@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking virtual.lab.inf.uva.es (be patient)
+
+
+Server Software:        Apache/2.4.18
+Server Hostname:        virtual.lab.inf.uva.es
+Server Port:            31072
+
+Document Path:          /webGrande.html
+Document Length:        256 bytes
+
+Concurrency Level:      100
+Time taken for tests:   276.150 seconds
+Complete requests:      100000
+Failed requests:        39
+   (Connect: 0, Receive: 0, Length: 39, Exceptions: 0)
+Keep-Alive requests:    99961
+Total transferred:      56477965 bytes
+HTML transferred:       25590016 bytes
+Requests per second:    362.12 [#/sec] (mean)
+Time per request:       276.150 [ms] (mean)
+Time per request:       2.761 [ms] (mean, across all concurrent requests)
+Transfer rate:          199.73 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1  41.2      0    5673
+Processing:     0  275 358.4    147    8930
+Waiting:        0  273 347.5    147    8930
+Total:          0  276 363.6    147    9165
+
+Percentage of the requests served within a certain time (ms)
+  50%    147
+  66%    220
+  75%    288
+  80%    345
+  90%    613
+  95%    940
+  98%   1434
+  99%   1817
+ 100%   9165 (longest request)

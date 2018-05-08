@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#Args:
+#$1: Filename
+#$2: From test # (Included)
+#$3: To test # (Included)
+
+if [ $# -ne 3 ]; then
+    echo "Args usage:"
+    echo "  1: filename"
+    echo "  2: first test"
+    echo "  3: last test"
+    exit 1
+fi
+
+for (( i=$2; i<=$3; i++))
+	do
+		./formatear $1$i
+		#echo "Formateado: $1$i"
+	done
+
+	java dataRead $1 $2 $3
+
+	rm $1*osda

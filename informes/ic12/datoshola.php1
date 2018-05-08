@@ -1,0 +1,44 @@
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking virtual.lab.inf.uva.es (be patient)
+
+
+Server Software:        Apache/2.4.18
+Server Hostname:        virtual.lab.inf.uva.es
+Server Port:            31072
+
+Document Path:          /hola.php
+Document Length:        90584 bytes
+
+Concurrency Level:      500
+Time taken for tests:   2245.874 seconds
+Complete requests:      100000
+Failed requests:        27048
+   (Connect: 0, Receive: 5856, Length: 15336, Exceptions: 5856)
+Keep-Alive requests:    0
+Total transferred:      8544341510 bytes
+HTML transferred:       8528335330 bytes
+Requests per second:    44.53 [#/sec] (mean)
+Time per request:       11229.372 [ms] (mean)
+Time per request:       22.459 [ms] (mean, across all concurrent requests)
+Transfer rate:          3715.29 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0 2239 8901.7     51   65972
+Processing:    93 8667 30857.1    233  195259
+Waiting:        0  601 4371.5     38   98311
+Total:        109 10906 31661.7    729  195389
+
+Percentage of the requests served within a certain time (ms)
+  50%    729
+  66%   1859
+  75%   3351
+  80%   4189
+  90%  15546
+  95%  130062
+  98%  131072
+  99%  131073
+ 100%  195389 (longest request)
