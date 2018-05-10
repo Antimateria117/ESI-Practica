@@ -221,7 +221,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">../../lab1/Práctica2/resultadosEscenario1/prueba4/reporteResumen</stringProp>
+          <stringProp name="filename">/home/sergio/Dropbox/Universidad/TerceroIngenieria/SegundoCuatrimestre/ESI/laboratorio/lab1/Práctica2/resultadosEscenario2/130/salida.jtl</stringProp>
         </ResultCollector>
         <hashTree/>
         <kg.apc.jmeter.vizualizers.CorrectedResultCollector guiclass="kg.apc.jmeter.vizualizers.SynthesisReportGui" testclass="kg.apc.jmeter.vizualizers.CorrectedResultCollector" testname="jp@gc - Synthesis Report (filtered)" enabled="true">
