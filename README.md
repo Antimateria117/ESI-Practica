@@ -15,7 +15,7 @@ Prácticas de ESI - UVa
 - [x] Escenario 1 pruebas 1,2,3 y 4 hechas.
 - [x] Escenario 2 pruebas con 10,20,40,70,130 y 240 hechas.
 - [x] Elegir el periodo de subida para las pruebas del secenario 2.
-- [ ] Conclusiones en practica 2, casi acabada. 
+- [ ] Conclusiones en practica 2, descripción métricas utilizadas. Práctica casi acabada. 
 - [ ] Incluir tabla productividad 240 hilos escenario 2 en ANEXO II.
 - [ ] Rehacer un par de pruebas del escenario 2 en terminal para ver si cambia mucho.
 - [ ] Rehacer la prueba con 130 hilos.
