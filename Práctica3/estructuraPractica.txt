@@ -1,0 +1,20 @@
+-Introducción
+-bjetivos
+-Información disponible: log
+-Herramientas usadas:
+    >Awstats
+-Analisis de utilización
+    >Respuestas servidor
+    >Tipos y tamaños de los documentos
+    >Popularidad documentos y transferencia
+-Construcción del modelo de carga (Molero)
+
+
+--------------------------
+
+
+-Herramientas alternativas a Awstasts
+    >www.eventloganalyzer.com
+    >webalizer
+    >analog
+
