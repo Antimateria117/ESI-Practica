@@ -21,7 +21,7 @@ Prácticas de ESI - UVa
 - [ ] Rehacer la prueba con 130 hilos.
 
 ## Práctica 3
-Información generada por awstats para el informe en: [Estadísticas AWSTATS - UVa.log](http://serverandroid.ddns.net:47 000/cgi-bin/awstats.pl?config=uva.es)
+Información generada por awstats para el informe en: [Estadísticas AWSTATS - UVa.log](http://serverandroid.ddns.net:47000/cgi-bin/awstats.pl?config=uva.es)
 - [x] Configuración de AWStat para ver las gráficas de los archivos.
 - [x] Pequeños apuntes realizados.
 - [x] Acabadas las 2/3 partes de análisis del Log de apache.
