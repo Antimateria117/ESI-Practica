@@ -36,6 +36,6 @@ Informe de la práctica 3: [Overleaf Práctica 3](https://www.overleaf.com/16172
 - [x] Incluir los progrmas de procesamiento de datos en los anexos
 - [x] Escribir el apartado de conclusiones.
 - [ ] Rehacer bien el modelo de carga, usar clusters, extraer datos con progrmas y crear gráficas de clusters con stat grpahics.  
-
+---
 Día de entrega de la práctica: 15 de Mayo - Martes.
 
