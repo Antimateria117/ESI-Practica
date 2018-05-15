@@ -2,7 +2,7 @@
 Prácticas de ESI - UVa
 
 ## Práctica 1
-Informe de la práctica 1: [Overleaf Práctica 1](https://www.overleaf.com/16217826tnmbmrzbfcdc#/62053168/)
+Informe de la práctica 1: [Overleaf Práctica 1](https://v2.overleaf.com/read/xmxxsjfhsngk)
 - [x] Informe casi acabado, faltan las conclusiones y comentar un poco el análisis exploratorio de los datos.
 - [x] Decidir si vamos a meter el SAR y la monitorización. Al final no lo usamos, de momento no añadimos la parte de monitorización. Si vamos bien de tiempo pues si. 
 - [x] Práctica Acabada.
@@ -12,7 +12,7 @@ Informe de la práctica 1: [Overleaf Práctica 1](https://www.overleaf.com/16217
 - [ ] Acabar alguna prueba más de PHP, a ver si funcionan.
 
 ## Práctica 2
-Informe de la práctica 2: [Overleaf Práctica 2](https://www.overleaf.com/13890361vyymrxqywtms#/62053603/)
+Informe de la práctica 2: [Overleaf Práctica 2](https://v2.overleaf.com/read/sqrgxzmbmswh)
 - [x] Configuración de Jmeter terminada.
 - [x] Grabación de los escenarios de prueba.
 - [x] Escenario 1 pruebas 1,2,3 y 4 hechas.
@@ -25,7 +25,7 @@ Informe de la práctica 2: [Overleaf Práctica 2](https://www.overleaf.com/13890
 - [ ] Rehacer la prueba con 130 hilos.
 
 ## Práctica 3
-Información generada por awstats para el informe en: [Estadísticas AWSTATS - UVa.log](http://serverandroid.ddns.net:47000/cgi-bin/awstats.pl?config=uva.es)
+Información generada por awstats para el informe en: [Estadísticas AWSTATS - UVa.log](https://v2.overleaf.com/read/rfzzvgpdrsss)
 
 Informe de la práctica 3: [Overleaf Práctica 3](https://www.overleaf.com/16172410khmmkrdjqbzm#/61845567/)
 - [x] Configuración de AWStat para ver las gráficas de los archivos.
