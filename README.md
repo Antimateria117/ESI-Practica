@@ -2,16 +2,17 @@
 Prácticas de ESI - UVa
 
 ## Práctica 1
-Informe de la práctica 1: [Overleaf Práctica 1](https://www.overleaf.com/13890361vyymrxqywtms)
+Informe de la práctica 1: [Overleaf Práctica 1](https://www.overleaf.com/16217826tnmbmrzbfcdc#/62053168/)
 - [x] Informe casi acabado, faltan las conclusiones y comentar un poco el análisis exploratorio de los datos.
 - [x] Decidir si vamos a meter el SAR y la monitorización. Al final no lo usamos, de momento no añadimos la parte de monitorización. Si vamos bien de tiempo pues si. 
 - [x] Práctica Acabada.
 - [x] Formatear bien ANEXO II y ANEXO I. 
+- [x] Añadir las tablas que pide epara el ANEXO III.
+- [x] Añadir la bibliografía.
 - [ ] Acabar alguna prueba más de PHP, a ver si funcionan.
-- [ ] Añadir las tablas que pide epara el ANEXO III.
 
 ## Práctica 2
-Informe de la práctica 2: [Overleaf Práctica 2](https://www.overleaf.com/13890361vyymrxqywtms)
+Informe de la práctica 2: [Overleaf Práctica 2](https://www.overleaf.com/13890361vyymrxqywtms#/62053603/)
 - [x] Configuración de Jmeter terminada.
 - [x] Grabación de los escenarios de prueba.
 - [x] Escenario 1 pruebas 1,2,3 y 4 hechas.
@@ -33,7 +34,7 @@ Informe de la práctica 3: [Overleaf Práctica 3](https://www.overleaf.com/16172
 - [x] Modelo de carga.
 - [x] Informe de la práctica
 - [x] Incluir los progrmas de procesamiento de datos en los anexos
-- [ ] Escribir el apartado de conclusiones.
+- [x] Escribir el apartado de conclusiones.
 - [ ] Rehacer bien el modelo de carga, usar clusters, extraer datos con progrmas y crear gráficas de clusters con stat grpahics.  
 
 Día de entrega de la práctica: 15 de Mayo - Martes.
