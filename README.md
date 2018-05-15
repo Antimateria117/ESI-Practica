@@ -25,9 +25,9 @@ Informe de la práctica 2: [Overleaf Práctica 2](https://v2.overleaf.com/read/s
 - [ ] Rehacer la prueba con 130 hilos.
 
 ## Práctica 3
-Información generada por awstats para el informe en: [Estadísticas AWSTATS - UVa.log](https://v2.overleaf.com/read/rfzzvgpdrsss)
+Información generada por awstats para el informe en: [Estadísticas AWSTATS - UVa.log](http://serverandroid.ddns.net:47000/cgi-bin/awstats.pl?config=uva.es)
 
-Informe de la práctica 3: [Overleaf Práctica 3](https://www.overleaf.com/16172410khmmkrdjqbzm#/61845567/)
+Informe de la práctica 3: [Overleaf Práctica 3](https://v2.overleaf.com/read/rfzzvgpdrsss)
 - [x] Configuración de AWStat para ver las gráficas de los archivos.
 - [x] Pequeños apuntes realizados.
 - [x] Acabadas las 3/3 partes de análisis del Log de apache.
