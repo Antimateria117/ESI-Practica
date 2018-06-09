@@ -23,6 +23,7 @@ Informe de la práctica 2: [Overleaf Práctica 2](https://v2.overleaf.com/read/s
 - [ ] Incluir tabla productividad 240 hilos escenario 2 en ANEXO II.
 - [ ] Rehacer un par de pruebas del escenario 2 en terminal para ver si cambia mucho.
 - [ ] Rehacer la prueba con 130 hilos.
+- [ ] Dar una aproximación global a las pruebas realizadas y extraer conclusiones del uso.
 
 ## Práctica 3
 Información generada por awstats para el informe en: [Estadísticas AWSTATS - UVa.log](http://serverandroid.ddns.net:47000/cgi-bin/awstats.pl?config=uva.es)
@@ -35,7 +36,5 @@ Informe de la práctica 3: [Overleaf Práctica 3](https://v2.overleaf.com/read/r
 - [x] Informe de la práctica
 - [x] Incluir los progrmas de procesamiento de datos en los anexos
 - [x] Escribir el apartado de conclusiones.
-- [ ] Rehacer bien el modelo de carga, usar clusters, extraer datos con progrmas y crear gráficas de clusters con stat grpahics.  
----
-Día de entrega de la práctica: 15 de Mayo - Martes.
+- [x] Rehacer bien el modelo de carga, usar clusters, extraer datos con progrmas y crear gráficas de clusters con stat grpahics.  
 
