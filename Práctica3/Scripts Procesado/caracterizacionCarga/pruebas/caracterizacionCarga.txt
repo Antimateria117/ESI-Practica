@@ -1,0 +1,12 @@
+-- ------------------------------------ --
+--      CARACTERIZACIÓN DE LA CARGA     --
+-- ------------------------------------ --
+
+Le vamos a pasar al programa un pequeño script hecho en python que va a abrir el fichero de log original y va a escribir en un fichero llamado logFiltrado.log solo las peticiones de tipo GET y de tipo 2XX y 3XX.
+
+Los resultados obtenidops los vamos a depositar en un fichero llamado, resultado.log. Ahora que ya tenemos los datos filtrados. Tenemos que empezar a desarrollar el modelo de carga, para ello se nos dice en el enunciado que tenemos que utilizar como parámetros, el tamaño del fichero, el número de accesos al fichero y el tiempo de ejecución del mismo. Al tener más de dos variables, para la realización del modelo de carga vamos a seguir.
+
+En principio vamos a realizar el análisis sobre todo el fichero. Esto en principio nos va a proporcionar la información necesaria suficiente para un correcto modelado de la carga. El único inconveniente es que vamos a tener en cuenta las peticiones de los crawlers y spiders de la web. Quizá en iteraciones futuras sobre esta práctica se quiten estos accesos de neustro fichero. En principio simplemente tendríamos que anañizar los tiempos de acceso, ya que estos deberían de ser muy cortos.
+Lo vamos a dejar así.
+
+Primero tenemos que hacer un análisis y un procesado de los datos, en este análisis lo que tenemos que hacer es una lista que contenga los siguientes elementos, podemos usar un diccionario, la clave van a ser als difernetes páginas web que se obitnene del servidor y para cada una de esas páginas web tenemos que contar el tamaño medio, el número de accessos a la misma, que se puede obtener fácil y además el tiempo de ejecución, del que tomaremos también el valor medio. Para ello vamos a utilzar un programa escrito en python.
